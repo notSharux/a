@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S xorg xorg-server xorg-xinit
+sudo pacman -S xorg xorg-server xorg-xinit base-devel ttf-jetbrains-mono
 
 git clone https://github.com/notSharux/dotfiles
 git clone https://github.com/notSharux/st-xrdb
