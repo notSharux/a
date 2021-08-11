@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-sudo pacman -S xorg xorg-server xorg-xinit ttf-jetbrains-mono ttf-font-awesome fish starship ttf-joypixels nvidia nvidia-settings pulseaudio pavucontrol
+sudo pacman -S xorg xorg-server xorg-xinit ttf-jetbrains-mono ttf-font-awesome fish starship ttf-joypixels nvidia nvidia-settings pulseaudio pavucontrol neovim
 
 cd ~
 # dotfiles
