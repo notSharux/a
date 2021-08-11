@@ -1,7 +1,20 @@
 
 #!/bin/bash
 
-sudo pacman -S xorg-xrandr xorg-server xorg-xinit ttf-jetbrains-mono ttf-font-awesome fish starship ttf-joypixels nvidia nvidia-settings pulseaudio pavucontrol
+# Xorg
+sudo pacman -S xorg-xrandr xorg-server xorg-init
+
+# Font
+sudo pacman -S ttf-jetbrains-mono ttf-font-awesome
+
+# Drivers
+sudo pacman -S nvidia nvidia-settings
+
+# Audio
+sudo pacman -S pulseaudio pavucontrol
+
+# Other
+sudo pacman -S fish starship xplr neovim base-devel
 
 cd ~
 # dotfiles
@@ -21,6 +34,7 @@ git clone https://github.com/vinceliuice/Tela-icon-theme
 
 # Fixing time zone
 cd dotfiles/random
+sudo chmod +x time.sh
 ./time.sh
 cd
 
