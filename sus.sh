@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Xorg
@@ -39,7 +38,6 @@ sudo chmod +x time.sh
 cd
 
 rm -rfv .config
-
 
 cd dotfiles
 cp .xinitrc ~
@@ -92,3 +90,4 @@ cd
 cd yay
 makepkg -si
 cd
+
