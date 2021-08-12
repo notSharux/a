@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Xorg
-sudo pacman -S xorg-xrandr xorg-server xorg-init
+sudo pacman -S xorg-xrandr xorg-server xorg-xinit
 
 # Font
 sudo pacman -S ttf-jetbrains-mono ttf-font-awesome
