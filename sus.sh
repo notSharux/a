@@ -59,7 +59,7 @@ cd
 # Suckless builds
 cd .config/dwmblocks
 sudo chmod +x *
-chmod
+cd
 
 cd st-xrdb
 sudo make clean install
