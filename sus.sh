@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Xorg
-sudo pacman -S xorg-xrandr xorg-server xorg-init
+sudo pacman -S xorg-xrandr xorg-server xorg-xinit
 
 # Font
 sudo pacman -S ttf-jetbrains-mono ttf-font-awesome
@@ -60,7 +60,7 @@ cd
 # Suckless builds
 cd .config/dwmblocks
 sudo chmod +x *
-cd
+chmod
 
 cd st-xrdb
 sudo make clean install
