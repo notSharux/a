@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Xorg
@@ -39,7 +40,6 @@ cd
 
 rm -rfv .config
 
-
 cd dotfiles
 cp .xinitrc ~
 cp -r .config ~
@@ -60,7 +60,7 @@ cd
 # Suckless builds
 cd .config/dwmblocks
 sudo chmod +x *
-chmod
+cd
 
 cd st-xrdb
 sudo make clean install
