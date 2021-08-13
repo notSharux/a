@@ -5,7 +5,7 @@
 sudo pacman -S xorg-xrandr xorg-server xorg-xinit libxft libxinerama
 
 # Font
-sudo pacman -S ttf-jetbrains-mono ttf-font-awesome
+sudo pacman -S ttf-jetbrains-mono ttf-font-awesome ttf-joypixels
 
 # Drivers
 sudo pacman -S nvidia nvidia-settings
@@ -22,7 +22,7 @@ git clone https://github.com/notSharux/dotfiles
 
 # Suckless Builds
 git clone https://github.com/notSharux/st-xrdb
-git clone https://github.com/notSharux/dmenu
+git clone https://github.com/notSharux/dmenu-xrdb
 git clone https://github.com/notSharux/dwm-xrdb
 
 # AUR helper
