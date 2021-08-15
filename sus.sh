@@ -5,7 +5,7 @@
 sudo pacman -S xorg-xrandr xorg-server xorg-xinit libxft libxinerama
 
 # Font
-sudo pacman -S ttf-jetbrains-mono ttf-font-awesome ttf-joypixels
+sudo pacman -S ttf-jetbrains-mono ttf-font-awesome ttf-joypixels gnu-free-fonts noto-fonts
 
 # Drivers
 sudo pacman -S nvidia nvidia-settings
@@ -14,7 +14,7 @@ sudo pacman -S nvidia nvidia-settings
 sudo pacman -S pulseaudio pavucontrol
 
 # Other
-sudo pacman -S fish starship xplr neovim base-devel
+sudo pacman -S zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions starship xplr neovim base-devel
 
 cd ~
 # dotfiles
@@ -45,6 +45,7 @@ cp .xinitrc ~
 cp -r .config ~
 cp .Xresources ~
 cp .Xresources2 ~
+cp .zshrc ~
 cp -r dwmblocks ~
 cd
 
@@ -91,3 +92,5 @@ cd
 cd yay
 makepkg -si
 cd
+
+yay -S autojump
