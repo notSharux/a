@@ -2,19 +2,19 @@
 #!/bin/bash
 
 # Xorg
-sudo pacman -S xorg-xrandr xorg-server xorg-xinit libxft libxinerama
+yes | sudo pacman -S xorg-xrandr xorg-server xorg-xinit libxft libxinerama
 
 # Font
-sudo pacman -S ttf-jetbrains-mono ttf-font-awesome ttf-joypixels gnu-free-fonts noto-fonts
+yes | sudo pacman -S ttf-jetbrains-mono ttf-font-awesome ttf-joypixels gnu-free-fonts noto-fonts
 
 # Drivers
-sudo pacman -S nvidia nvidia-settings
+yes | sudo pacman -S nvidia nvidia-settings
 
 # Audio
-sudo pacman -S pulseaudio pavucontrol
+yes | sudo pacman -S pulseaudio pavucontrol
 
 # Other
-sudo pacman -S zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions starship xplr neovim base-devel
+yes | sudo pacman -S zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions starship xplr neovim base-devel
 
 cd ~
 # dotfiles
@@ -93,4 +93,4 @@ cd yay
 makepkg -si
 cd
 
-yay -S autojump
+yes | yay -S autojump
