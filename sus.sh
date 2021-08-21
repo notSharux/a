@@ -14,7 +14,7 @@ sudo pacman -S nvidia nvidia-settings
 sudo pacman -S pulseaudio pavucontrol
 
 # Other
-sudo pacman -S zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions starship xplr neovim base-devel
+sudo pacman -S fish starship xplr neovim base-devel python-pip
 
 cd ~
 # dotfiles
@@ -67,7 +67,7 @@ cd st-xrdb
 sudo make clean install
 cd
 
-cd dmenu
+cd dmenu-xrdb
 sudo make clean install
 cd
 
@@ -92,5 +92,3 @@ cd
 cd yay
 makepkg -si
 cd
-
-yay -S autojump
