@@ -1,4 +1,5 @@
 
+
 #!/bin/bash
 
 # Xorg
@@ -14,7 +15,7 @@ sudo pacman -S nvidia nvidia-settings
 sudo pacman -S pulseaudio pavucontrol
 
 # Other
-sudo pacman -S fish starship xplr neovim base-devel python-pip
+sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship xplr neovim base-devel alacritty  fuse ntfs-3g
 
 cd ~
 # dotfiles
