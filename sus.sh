@@ -15,7 +15,7 @@ sudo pacman -S nvidia nvidia-settings
 sudo pacman -S pulseaudio pavucontrol
 
 # Other
-sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship xplr neovim base-devel alacritty  fuse ntfs-3g
+sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship xplr neovim base-devel alacritty  fuse ntfs-3g firefox nodejs
 
 cd ~
 # dotfiles
@@ -25,6 +25,7 @@ git clone https://github.com/notSharux/dotfiles
 git clone https://github.com/notSharux/st-xrdb
 git clone https://github.com/notSharux/dmenu-xrdb
 git clone https://github.com/notSharux/dwm-xrdb
+git clone https://github.com/notSharux/slstatus
 
 # AUR helper
 git clone https://aur.archlinux.org/yay
@@ -80,6 +81,10 @@ cd dwmblocks
 sudo make clean install
 cd
 
+cd slstatus
+sudo make clean install
+cd
+
 # icons and themes
 cd ChromeOS-theme
 ./install.sh
@@ -93,3 +98,4 @@ cd
 cd yay
 makepkg -si
 cd
+
