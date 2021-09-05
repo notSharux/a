@@ -102,6 +102,12 @@ cd yay
 makepkg -si
 cd
 
+# picom
+git clone https://github.com/jonaburg/picom
+cd picom
+makepkg -si
+cd
+
 rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme
 
 # Fixing time zone
