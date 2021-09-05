@@ -48,6 +48,7 @@ cd dotfiles
 cp .xinitrc ~
 cp -r .config ~
 cp -r .x ~
+cp -r wallpapers ~
 cp .bashrc ~
 cp .Xresources ~
 cp .zshrc ~
