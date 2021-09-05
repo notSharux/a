@@ -18,7 +18,7 @@ sudo pacman -S nvidia nvidia-settings
 sudo pacman -S pulseaudio pavucontrol
 
 # Other
-sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship xplr neovim base-devel alacritty  fuse ntfs-3g firefox nodejs
+sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship xplr neovim base-devel alacritty  fuse ntfs-3g firefox nodejs nitrogen
 
 cd ~
 # dotfiles
@@ -109,10 +109,11 @@ cd picom
 makepkg -si
 cd
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom
-
 # Fixing time zone
 cd dotfiles/random
 sudo chmod +x time.sh
 ./time.sh
 cd
+
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom
+
