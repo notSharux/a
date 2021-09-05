@@ -109,7 +109,7 @@ cd picom
 makepkg -si
 cd
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom
 
 # Fixing time zone
 cd dotfiles/random
