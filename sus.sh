@@ -102,3 +102,4 @@ cd yay
 makepkg -si
 cd
 
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme
