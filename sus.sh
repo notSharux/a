@@ -37,11 +37,7 @@ git clone https://aur.archlinux.org/yay
 git clone https://github.com/vinceliuice/ChromeOS-theme
 git clone https://github.com/vinceliuice/Tela-icon-theme
 
-# Fixing time zone
-cd dotfiles/random
-sudo chmod +x time.sh
-./time.sh
-cd
+
 
 rm -rfv .config
 
@@ -49,7 +45,6 @@ cd dotfiles
 cp .xinitrc ~
 cp -r .config ~
 cp .Xresources ~
-cp .Xresources2 ~
 cp .zshrc ~
 cp -r dwmblocks ~
 cd
@@ -103,3 +98,9 @@ makepkg -si
 cd
 
 rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme
+
+# Fixing time zone
+cd dotfiles/random
+sudo chmod +x time.sh
+./time.sh
+cd
