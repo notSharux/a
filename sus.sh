@@ -22,10 +22,13 @@ cd ~
 git clone https://github.com/notSharux/dotfiles
 
 # Suckless Builds
+mkdir Suckless-Builds
+cd Suckless-Builds
 git clone https://github.com/notSharux/st-xrdb
 git clone https://github.com/notSharux/dmenu-xrdb
 git clone https://github.com/notSharux/dwm-xrdb
 git clone https://github.com/notSharux/slstatus
+cd
 
 # AUR helper
 git clone https://aur.archlinux.org/yay
@@ -65,23 +68,23 @@ cd .config/dwmblocks
 sudo chmod +x *
 cd
 
-cd st-xrdb
+cd Suckless-Builds/st-xrdb
 sudo make clean install
 cd
 
-cd dmenu-xrdb
+cd Suckless-Builds/dmenu-xrdb
 sudo make clean install
 cd
 
-cd dwm-xrdb
+cd Suckless-Builds/dwm-xrdb
 sudo make clean install
 cd
 
-cd dwmblocks
+cd Suckless-Builds/dwmblocks
 sudo make clean install
 cd
 
-cd slstatus
+cd Suckless-Builds/slstatus
 sudo make clean install
 cd
 
