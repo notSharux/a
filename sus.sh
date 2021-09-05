@@ -52,7 +52,7 @@ cp -r wallpapers ~
 cp .bashrc ~
 cp .Xresources ~
 cp .zshrc ~
-cp -r dwmblocks ~
+cp -r dwmblocks ~/Suckless-Builds/
 cd
 
 # Dmenu scripts
@@ -65,7 +65,7 @@ sudo chmod +x *
 cd
 
 # Suckless builds
-cd .config/dwmblocks
+cd Suckless-Builds/.config/dwmblocks
 sudo chmod +x *
 cd
 
