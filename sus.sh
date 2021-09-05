@@ -2,6 +2,9 @@
 
 #!/bin/bash
 
+# Update
+yes | sudo pacman -Syyu
+
 # Xorg
 sudo pacman -S xorg-xrandr xorg-server xorg-xinit libxft libxinerama
 
