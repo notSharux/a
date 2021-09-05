@@ -44,6 +44,8 @@ rm -rfv .config
 cd dotfiles
 cp .xinitrc ~
 cp -r .config ~
+cp -r .x ~
+cp .bashrc ~
 cp .Xresources ~
 cp .zshrc ~
 cp -r dwmblocks ~
