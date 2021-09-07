@@ -9,7 +9,7 @@ yes | sudo pacman -Syyu
 sudo pacman -S xorg-xrandr xorg-server xorg-xinit libxft libxinerama
 
 # Font
-sudo pacman -S ttf-jetbrains-mono ttf-font-awesome ttf-joypixels gnu-free-fonts noto-fonts ttf-hack
+sudo pacman -S ttf-jetbrains-mono ttf-font-awesome ttf-joypixels gnu-free-fonts noto-fonts ttf-hack powerline-fonts
 
 # Drivers
 sudo pacman -S nvidia nvidia-settings
