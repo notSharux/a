@@ -116,5 +116,16 @@ sudo chmod +x time.sh
 ./time.sh
 cd
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom
+# Fonts
+git clone https://github.com/ryanoasis/nerd-fonts
+cd nerd-fonts
+sudo chmod +x install.sh
+cd
+
+git clone https://github.com/powerline/ 
+cd fonts
+sudo chmod +x install.sh
+cd
+
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom nerd-fonts fonts
 
