@@ -18,7 +18,7 @@ sudo pacman -S nvidia nvidia-settings
 sudo pacman -S pulseaudio pavucontrol
 
 # Other
-sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship xplr neovim base-devel alacritty  fuse ntfs-3g firefox nodejs nitrogen
+sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship xplr neovim base-devel alacritty  fuse ntfs-3g firefox nodejs nitrogen fzf ripgrep the_silver_searcher fd
 
 cd ~
 # dotfiles
