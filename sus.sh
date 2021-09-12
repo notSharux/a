@@ -12,13 +12,13 @@ sudo pacman -S --noconfirm xorg-xrandr xorg-server xorg-xinit libxft libxinerama
 sudo pacman -S --noconfirm ttf-jetbrains-mono ttf-font-awesome # ttf-joypixels gnu-free-fonts noto-fonts ttf-hack powerline-fonts
 
 # Drivers
-sudo pacman -S nvidia nvidia-settings
+sudo pacman -S --noconfirm nvidia nvidia-settings
 
 # Audio
 sudo pacman -S --noconfirm pulseaudio pavucontrol
 
 # Other
-sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs
+sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi
 
 cd ~
 # dotfiles
