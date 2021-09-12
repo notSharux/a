@@ -34,6 +34,7 @@ git clone https://github.com/notSharux/dwm-xrdb
 git clone https://github.com/notSharux/dwm
 git clone https://github.com/notSharux/slstatus
 git clone https://github.com/dylanaraps/pfetch
+git clone https://github.com/muennich/sxiv
 cd
 
 # AUR helper
@@ -80,6 +81,10 @@ sudo make install
 cd
 
 cd Suckless-Builds/st-xrdb
+sudo make clean install
+cd
+
+cd Suckless-Builds/sxiv
 sudo make clean install
 cd
 
