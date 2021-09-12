@@ -130,15 +130,15 @@ sudo chmod +x time.sh
 cd
 
 # Fonts
-#git clone https://github.com/ryanoasis/nerd-fonts
-#cd nerd-fonts
-#sudo chmod +x install.sh
-#cd
+git clone https://github.com/ryanoasis/nerd-fonts
+cd nerd-fonts
+sudo chmod +x install.sh
+cd
 
-#git clone https://github.com/powerline/
-#cd fonts
-#sudo chmod +x install.sh
-#cd
+git clone https://github.com/powerline/fonts
+cd fonts
+sudo chmod +x install.sh
+cd
 
 sudo mkdir /usr/share/fonts/custom
 cd font
