@@ -57,6 +57,8 @@ cp .Xresources ~
 cp .zshrc ~
 cp .zshenv ~
 cp -r dwmblocks ~/Suckless-Builds/
+cd .config/
+sudo chmod +x *
 cd
 
 # Dmenu scripts
