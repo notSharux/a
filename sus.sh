@@ -30,6 +30,7 @@ cd Suckless-Builds
 git clone https://github.com/notSharux/st-xrdb
 git clone https://github.com/notSharux/dmenu-xrdb
 git clone https://github.com/notSharux/dwm-xrdb
+git clone https://github.com/notSharux/dwm
 git clone https://github.com/notSharux/slstatus
 git clone https://github.com/dylanaraps/pfetch
 cd
@@ -84,6 +85,10 @@ sudo make clean install
 cd
 
 cd Suckless-Builds/dwm-xrdb
+sudo make clean install
+cd
+
+cd Suckless-Builds/dwm
 sudo make clean install
 cd
 
