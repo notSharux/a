@@ -6,7 +6,7 @@
 sudo pacman -Syyu --noconfirm
 
 # Xorg
-sudo pacman -S --noconfirm xorg-xrandr xorg-server xorg-xinit libxft libxinerama
+sudo pacman -S --noconfirm xorg-xrandr xorg-server xorg-xinit libxft libxinerama imlib2
 
 # Font
 sudo pacman -S --noconfirm ttf-jetbrains-mono ttf-font-awesome # ttf-joypixels gnu-free-fonts noto-fonts ttf-hack
