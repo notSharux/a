@@ -23,6 +23,7 @@ sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-c
 cd ~
 # dotfiles
 git clone https://github.com/notSharux/dotfiles
+git clone https://github.com/notSharux/font
 
 # Suckless Builds
 mkdir Suckless-Builds
@@ -137,5 +138,11 @@ cd
 #sudo chmod +x install.sh
 #cd
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom # nerd-fonts fonts
+sudo mkdir /usr/share/fonts/custom
+cd font
+mv * /usr/share/fonts/custom/
+cd
+sudo fc-cache -f -fv
+
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom font # nerd-fonts fonts
 
