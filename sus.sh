@@ -9,7 +9,7 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -S --noconfirm xorg-xrandr xorg-server xorg-xinit libxft libxinerama imlib2
 
 # Font
-sudo pacman -S --noconfirm ttf-jetbrains-mono ttf-font-awesome # ttf-joypixels gnu-free-fonts noto-fonts ttf-hack
+sudo pacman -S --noconfirm ttf-jetbrains-mono ttf-font-awesome ttf-joypixels gnu-free-fonts noto-fonts ttf-hack
 
 # Drivers
 sudo pacman -S --noconfirm nvidia nvidia-settings
@@ -17,8 +17,23 @@ sudo pacman -S --noconfirm nvidia nvidia-settings
 # Audio
 sudo pacman -S --noconfirm pulseaudio pavucontrol
 
+# zsh
+#sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions
+
 # Other
-sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi exfat-utils
+sudo pacman -S --noconfirm fish starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi exfat-utils
+
+# Virt-manager
+sudo pacman -S virt-manager qemu qemu-arch-extra ovmf vde2 ebtables dnsmasq bridge-utils openbsd-netcat
+sudo systemctl enable libvirtd.service
+sudo systemctl start libvirtd.service
+git clone https://gitlab.com/eflinux/kvmarch/
+cd kvmarch
+mv br10.xml ~
+cd
+sudo virsh net-define br10.xml
+sudo virsh net-start br10
+sudo virsh net-autostart br10
 
 cd ~
 # dotfiles
@@ -151,5 +166,5 @@ mv * /usr/share/fonts/custom/
 cd
 sudo fc-cache -f -fv
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom font # nerd-fonts fonts
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom font nerd-fonts fonts kvmarch
 
