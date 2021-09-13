@@ -18,7 +18,7 @@ sudo pacman -S --noconfirm nvidia nvidia-settings
 sudo pacman -S --noconfirm pulseaudio pavucontrol
 
 # Other
-sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi
+sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi exfat-utils
 
 cd ~
 # dotfiles
