@@ -166,5 +166,5 @@ mv * /usr/share/fonts/custom/
 cd
 sudo fc-cache -f -fv
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom font nerd-fonts fonts kvmarch
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom font kvmarch # nerd-fonts fonts
 
