@@ -9,7 +9,7 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -S --noconfirm xorg-xrandr xorg-server xorg-xinit libxft libxinerama imlib2
 
 # Font
-sudo pacman -S --noconfirm ttf-jetbrains-mono ttf-font-awesome ttf-joypixels gnu-free-fonts noto-fonts ttf-hack
+sudo pacman -S --noconfirm ttf-jetbrains-mono # ttf-joypixels gnu-free-fonts noto-fonts ttf-hack
 
 # Drivers
 sudo pacman -S --noconfirm nvidia nvidia-settings
@@ -150,9 +150,10 @@ sudo chmod +x time.sh
 cd
 
 # Fonts
+cd ~/.local/share/fonts
 git clone https://github.com/ryanoasis/nerd-fonts
-cd nerd-fonts
-sudo chmod +x install.sh
+#cd nerd-fonts
+#sudo chmod +x install.sh
 cd
 
 git clone https://github.com/powerline/fonts
@@ -160,11 +161,11 @@ cd fonts
 sudo chmod +x install.sh
 cd
 
-sudo mkdir /usr/share/fonts/custom
-cd font
-mv * /usr/share/fonts/custom/
-cd
-sudo fc-cache -f -fv
+#sudo mkdir /usr/share/fonts/custom
+#cd font
+#mv * /usr/share/fonts/custom/
+#cd
+#sudo fc-cache -f -fv
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom font kvmarch # nerd-fonts fonts
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom #font kvmarch # nerd-fonts fonts
 
