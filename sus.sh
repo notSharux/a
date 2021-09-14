@@ -24,16 +24,16 @@ sudo pacman -S --noconfirm pulseaudio pavucontrol
 sudo pacman -S --noconfirm fish starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi exfat-utils
 
 # Virt-manager
-sudo pacman -S virt-manager qemu qemu-arch-extra ovmf vde2 dnsmasq bridge-utils openbsd-netcat
-sudo systemctl enable libvirtd.service
-sudo systemctl start libvirtd.service
-git clone https://gitlab.com/eflinux/kvmarch/
-cd kvmarch
-mv br10.xml ~
-cd
-sudo virsh net-define br10.xml
-sudo virsh net-start br10
-sudo virsh net-autostart br10
+#sudo pacman -S virt-manager qemu qemu-arch-extra ovmf vde2 ebtables dnsmasq bridge-utils openbsd-netcat
+#sudo systemctl enable libvirtd.service
+#sudo systemctl start libvirtd.service
+#git clone https://gitlab.com/eflinux/kvmarch/
+#cd kvmarch
+#mv br10.xml ~
+#cd
+#sudo virsh net-define br10.xml
+#sudo virsh net-start br10
+#sudo virsh net-autostart br10
 
 cd ~
 # dotfiles
