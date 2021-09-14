@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-# Updatee
+# Update
 sudo pacman -Syyu --noconfirm
 
 # Xorg
