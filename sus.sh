@@ -38,7 +38,7 @@ sudo pacman -S --noconfirm fish starship neovim base-devel alacritty  fuse ntfs-
 cd ~
 # dotfiles
 git clone https://github.com/notSharux/dotfiles
-git clone https://github.com/notSharux/font
+#git clone https://github.com/notSharux/font
 
 # Suckless Builds
 mkdir Suckless-Builds
@@ -64,6 +64,7 @@ git clone https://github.com/vinceliuice/Tela-icon-theme
 rm -rfv .config
 
 cd dotfiles
+
 cp .xinitrc ~
 cp -r .config ~
 cp -r .x ~
