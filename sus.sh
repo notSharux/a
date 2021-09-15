@@ -167,5 +167,13 @@ cd
 #cd
 #sudo fc-cache -f -fv
 
+cd /etc/X11
+rm -rfv xorg.conf
+cd
+cd dotfiles
+mv xorg.conf /etc/X11/
+cd
+
+
 rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom #font kvmarch # nerd-fonts fonts
 
