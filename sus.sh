@@ -38,7 +38,6 @@ sudo pacman -S --noconfirm fish starship neovim base-devel alacritty  fuse ntfs-
 cd ~
 # dotfiles
 git clone https://github.com/notSharux/dotfiles
-#git clone https://github.com/notSharux/font
 
 # Suckless Builds
 mkdir Suckless-Builds
@@ -156,17 +155,6 @@ cd nerd-fonts
 ./install.sh
 cd
 
-#git clone https://github.com/powerline/fonts
-#cd fonts
-#sudo chmod +x install.sh
-#cd
-
-#sudo mkdir /usr/share/fonts/custom
-#cd font
-#mv * /usr/share/fonts/custom/
-#cd
-#sudo fc-cache -f -fv
-
 cd /etc/X11
 rm -rfv xorg.conf
 cd
@@ -175,5 +163,5 @@ mv xorg.conf /etc/X11/
 cd
 
 
-rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom #font kvmarch # nerd-fonts fonts
+rm -rfv a ChromeOS-theme dotfiles yay Tela-icon-theme picom
 
