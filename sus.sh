@@ -18,10 +18,10 @@ sudo pacman -S --noconfirm nvidia nvidia-settings
 sudo pacman -S --noconfirm pulseaudio pavucontrol
 
 # zsh
-#sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions
+sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions
 
 # Other
-sudo pacman -S --noconfirm fish starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi exfat-utils xarchiver pcmanfm
+sudo pacman -S --noconfirm starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi exfat-utils xarchiver pcmanfm
 
 # Virt-manager
 #sudo pacman -S virt-manager qemu qemu-arch-extra ovmf vde2 ebtables dnsmasq bridge-utils openbsd-netcat
