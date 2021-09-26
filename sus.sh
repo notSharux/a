@@ -134,13 +134,13 @@ cd
 
 # AUR helper
 cd yay
-makepkg -si
+makepkg --noconfirm -si
 cd
 
 # picom
 git clone https://github.com/jonaburg/picom
 cd picom
-makepkg -si
+makepkg --noconfirm -si
 cd
 
 # Fixing time zone
