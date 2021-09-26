@@ -159,7 +159,7 @@ cd /etc/X11
 rm -rfv xorg.conf
 cd
 cd dotfiles
-mv xorg.conf /etc/X11/
+sudo mv xorg.conf /etc/X11/
 cd
 
 
