@@ -144,10 +144,10 @@ makepkg --noconfirm -si
 cd
 
 # Fixing time zone
-#cd dotfiles/random
-#sudo chmod +x time.sh
-#./time.sh
-#cd
+cd dotfiles/random
+sudo chmod +x time.sh
+./time.sh
+cd
 
 # Fonts
 git clone https://github.com/ryanoasis/nerd-fonts
