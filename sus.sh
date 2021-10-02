@@ -145,6 +145,8 @@ cd
 
 # Fixing time zone
 cd dotfiles/random
+mv time.sh ~/
+cd
 sudo chmod +x time.sh
 ./time.sh
 cd
