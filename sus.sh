@@ -20,6 +20,9 @@ sudo pacman -S --noconfirm pulseaudio pavucontrol
 # zsh
 # sudo pacman -S --noconfirm zsh-syntax-highlighting zsh-autosuggestions zsh zsh-completions
 
+# systray icons
+sudo pacman -S --noconfirm volumeicon network-manager-applet networkmanager networkmanager-openconnect networkmanager-openvpn networkmanager-pptp networkmanager-vpnc trayer
+
 # Other
 sudo pacman -S --noconfirm fish starship neovim base-devel alacritty  fuse ntfs-3g firefox nitrogen fzf ripgrep the_silver_searcher fd gvfs lxsession lxappearance nodejs rofi exfat-utils xarchiver pcmanfm
 
