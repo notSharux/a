@@ -160,6 +160,10 @@ cd nerd-fonts
 ./install.sh
 cd
 
+cd .config/rofi/
+sudo chmod +x *
+cd
+
 cd /etc/X11
 rm -rfv xorg.conf
 cd
